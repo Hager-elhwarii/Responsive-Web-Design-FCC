@@ -3,24 +3,24 @@
 
  📑 - In this Responsive Web Design Certification, you'll learn the languages that developers use to build webpages:
 
-     🔹 HTML (Hypertext Markup Language) for content.
+   🔹 HTML (Hypertext Markup Language) for content.
   
-     🔹 CSS (Cascading Style Sheets) for design.
+   🔹 CSS (Cascading Style Sheets) for design.
   
   
  📑 -  First, you'll build a cat photo app to learn the basics of HTML and CSS. Later, you'll learn modern techniques like:
   
-     🔹 CSS variables by building a penguin.
+   🔹 CSS variables by building a penguin.
   
-     🔹 Best practices for accessibility by building a quiz site.
+   🔹 Best practices for accessibility by building a quiz site.
 
   
 
  📑 - Finally, you'll learn how to make webpages that respond to different screen sizes by building
   
-     🔹 A photo gallery with Flexbox.
+   🔹 A photo gallery with Flexbox.
  
-     🔹 And a magazine article layout with CSS Grid.
+   🔹 And a magazine article layout with CSS Grid.
   
   
 ## 📷  Screenshoot
