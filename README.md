@@ -1,10 +1,19 @@
 # Responsive-Web-Design-FreeCodeCamp 💡
-- In this Responsive Web Design Certification, you'll learn the languages that developers use to build webpages: HTML (Hypertext Markup Language) for content, and
- CSS (Cascading Style Sheets) for design. First, you'll build a cat photo app to learn the basics of HTML and CSS.
-  
-- Later, you'll learn modern techniques like CSS variables by building a penguin, and best practices for accessibility by building a quiz site.
+<a name="readme-top"></a>
 
-- Finally, you'll learn how to make webpages that respond to different screen sizes by building a photo gallery with Flexbox, and a magazine article layout with CSS Grid.
+- In this Responsive Web Design Certification, you'll learn the languages that developers use to build webpages:
+ 🖇️ HTML (Hypertext Markup Language) for content.
+ 🖇️ CSS (Cascading Style Sheets) for design.
+  
+- First, you'll build a cat photo app to learn the basics of HTML and CSS.
+  
+- Later, you'll learn modern techniques like:
+  🖇️ CSS variables by building a penguin.
+  🖇️ Best practices for accessibility by building a quiz site.
+
+- Finally, you'll learn how to make webpages that respond to different screen sizes by building
+ 🖇️ A photo gallery with Flexbox.
+ 🖇️And a magazine article layout with CSS Grid.
   
 ## 📷  Screenshoot
 ![image](https://github.com/Hager-elhwarii/Responsive-Web-Design-FreeCodeCamp/assets/80959882/73197167-4051-4561-b779-415232b44a37)
@@ -18,6 +27,7 @@
 If you want to get in-touch with me you can reach me at:
 -  [Email](http://hager.a.elhawary@gmail.com/)
 -  [LinkedIn](https://www.linkedin.com/in/hager-omar-elhawary/)
+
 
 ## 📘 License
 This project is totally free,  and does not contain any license.
