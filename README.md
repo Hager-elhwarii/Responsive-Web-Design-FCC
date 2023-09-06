@@ -8,3 +8,19 @@
   
 ## 📷  Screenshoot
 ![image](https://github.com/Hager-elhwarii/Responsive-Web-Design-FreeCodeCamp/assets/80959882/73197167-4051-4561-b779-415232b44a37)
+
+
+## 🚀 Course Link 
+  - [Responsive Web Design](https://www.freecodecamp.org/learn/2022/responsive-web-design/)
+    
+
+## 🦄   Author
+If you want to get in-touch with me you can reach me at:
+-  [Email](http://hager.a.elhawary@gmail.com/)
+-  [LinkedIn](https://www.linkedin.com/in/hager-omar-elhawary/)
+
+## 📘 License
+This project is totally free,  and does not contain any license.
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
