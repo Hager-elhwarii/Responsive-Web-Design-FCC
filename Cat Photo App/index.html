@@ -4,10 +4,25 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cat Photo App</title>
+    <style>
+     .title {
+        text-align: center;
+      }
+      .wrapper {
+        display: flex;
+      }
+      .cat {
+        height: 320px;
+      }
+      .cat-family {
+        height: 250px;
+      }
+    </style>
   </head>
   <body>
-    <main>
-      <h1>CatPhotoApp</h1>
+    <h1 class="title">CatPhotoApp</h1>
+    <main class="wrapper">
+     
       <section>
         <h2>Cat Photos</h2>
         <!-- TODO: Add link to cat photos -->
@@ -18,6 +33,7 @@
         </p>
         <a href="https://freecatphotoapp.com"
           ><img
+          class="cat"
             src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg"
             alt="A cute orange cat lying on its back."
         /></a>
@@ -37,6 +53,9 @@
           />
           <figcaption>Cats <em>love</em> lasagna.</figcaption>
         </figure>
+       
+      </section>
+      <section>
         <h3>Top 3 things cats hate:</h3>
         <ol>
           <li>flea treatment</li>
@@ -45,6 +64,7 @@
         </ol>
         <figure>
           <img
+            class="cat-family"
             src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg"
             alt="Five cats looking around a field."
           />
@@ -104,6 +124,10 @@
           />
           <button type="submit">Submit</button>
         </form>
+        <p>
+          No Copyright -
+          <a href="https://www.freecodecamp.org">freeCodeCamp.org</a>
+        </p>
       </section>
     </main>
     <footer>
