@@ -6,6 +6,5 @@
 
 - Finally, you'll learn how to make webpages that respond to different screen sizes by building a photo gallery with Flexbox, and a magazine article layout with CSS Grid.
   
-##  Screenshoot
-
-![image](https://github.com/Hager-elhwarii/Responsive-Web-Design-FreeCodeCamp/assets/80959882/2a6ed3ce-ca86-408e-a787-e7ea79ed9f3d)
+## 📷  Screenshoot
+![image](https://github.com/Hager-elhwarii/Responsive-Web-Design-FreeCodeCamp/assets/80959882/73197167-4051-4561-b779-415232b44a37)
