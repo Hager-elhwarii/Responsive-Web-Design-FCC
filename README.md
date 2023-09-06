@@ -5,3 +5,7 @@
 - Later, you'll learn modern techniques like CSS variables by building a penguin, and best practices for accessibility by building a quiz site.
 
 - Finally, you'll learn how to make webpages that respond to different screen sizes by building a photo gallery with Flexbox, and a magazine article layout with CSS Grid.
+  
+##  Screenshoot
+
+![image](https://github.com/Hager-elhwarii/Responsive-Web-Design-FreeCodeCamp/assets/80959882/2a6ed3ce-ca86-408e-a787-e7ea79ed9f3d)
