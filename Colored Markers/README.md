@@ -15,11 +15,11 @@
 - secondary colors are the colors you get when you combine primary colors.
 
 ```
-yellow => (255,255,0) 
+Yellow => (255,255,0) 
  
- cyan => (0,255,255)
+Cyan => (0,255,255)
  
-magenta => (255,0,255)
+Magenta => (255,0,255)
 
 ```
  
@@ -29,22 +29,22 @@ magenta => (255,0,255)
 - tertiary colors are created by combining a primary with a nearby secondary color.
   
 ```
- orange => (255,127,0) 
+Orange => (255,127,0) 
 
-spring green => (0,255,127)  
+Spring green => (0,255,127)  
 
-violet => (127,0,255)
+Violet => (127,0,255)
 
 ```
 
 ### 🔅 There are three more tertiary colors: 
 
 ```
-- green => (green + yellow)
+Green => (green + yellow)
 
-- azure  => (blue + cyan)
+Azure  => (blue + cyan)
   
- - rose =>  (red + magenta)
+Rose =>  (red + magenta)
 ```
 
 ### 🔅 Complementary colors:
@@ -53,9 +53,9 @@ violet => (127,0,255)
 
 ### 🔅 Hexadecimal or hex values:
 
-- Hex color values start with a # character and take six characters from 0-9 and A-F.
+- hex color values start with a # character and take six characters from 0-9 and A-F.
 
-- The first pair of characters represent red, the second pair represent green, and the third pair represent blue.   For example =>  #4B5320.
+- the first pair of characters represent red, the second pair represent green, and the third pair represent blue.   For example =>  #4B5320.
 
 ### 🔅 The CSS hsl function accepts 3 values: 
 
