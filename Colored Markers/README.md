@@ -14,37 +14,45 @@
 ### 🔅 Secondary colors:
 - secondary colors are the colors you get when you combine primary colors.
 
- (255,255,0)  => yellow.
+```
+yellow => (255,255,0) 
  
- (0,255,255) => cyan.
+ cyan => (0,255,255)
  
- (255,0,255) =>  magenta.
+magenta => (255,0,255)
+
+```
  
 
 ### 🔅 Tertiary colors:
 
 - tertiary colors are created by combining a primary with a nearby secondary color.
-
-(255,127,0)  => orange.
-
-(0,255,127) => spring green.
-
-(127,0,255) =>  violet.
-
-
-### 🔅 There are three more tertiary colors: chartreuse 
-
-- green => (green + yellow).
-
-- azure  => (blue + cyan).
   
- - rose =>  (red + magenta).
+```
+ orange => (255,127,0) 
+
+spring green => (0,255,127)  
+
+violet => (127,0,255)
+
+```
+
+### 🔅 There are three more tertiary colors: 
+
+```
+- green => (green + yellow)
+
+- azure  => (blue + cyan)
+  
+ - rose =>  (red + magenta)
+```
 
 ### 🔅 Complementary colors:
 
 - two colors that are opposite from each other on the color wheel are called complementary colors.
 
 ### 🔅 Hexadecimal or hex values:
+
 - Hex color values start with a # character and take six characters from 0-9 and A-F.
 
 - The first pair of characters represent red, the second pair represent green, and the third pair represent blue.   For example =>  #4B5320.
@@ -58,6 +66,7 @@
 -  a percentage from 0 to 100 for lightness.
 
 ### 🔅 Gradient: 
+
 - A gradient is when one color transitions into another.
   linear-gradient(gradientDirection, color1, color2, ...);
 
