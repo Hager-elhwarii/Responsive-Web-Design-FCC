@@ -5,6 +5,7 @@
 
 - In this course, you'll learn HTML forms by building a signup page. You'll learn how to control what types of data people can type into your form, and some new CSS tools for styling your page.
 
- ## :camera-flash: ScreenShoot
- <img src='![Alt text](image.png)' width='50%'>
- <img src='![Alt text](image-1.png)' width='50%'>
+ ## :camera_flash: ScreenShoot
+ 
+ <img src='https://github.com/Hager-elhwarii/Responsive-Web-Design-FreeCodeCamp/assets/80959882/e7526f64-f546-4678-8ad2-0d55a5f28c8b' width='50%'/>
+ <img src='https://github.com/Hager-elhwarii/Responsive-Web-Design-FreeCodeCamp/assets/80959882/5e222ece-8ff8-44b6-b5a1-0504e8b8601d' width='50%'/>
