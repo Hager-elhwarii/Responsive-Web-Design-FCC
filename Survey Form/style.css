@@ -11,7 +11,7 @@ body {
   background-position: center center;
 }
 .wrapper {
-  margin: 2em auto;
+  margin: 3em auto;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -20,7 +20,7 @@ body {
 .wrapper form {
   background-color: #eee;
   min-width: 700px;
-  padding: 3em 2em;
+  padding: 3em 2.8em;
   border-radius: 10px;
 }
 .heading {
@@ -85,6 +85,11 @@ input[type="checkbox"] {
   color: rgb(70, 70, 70);
   margin-bottom: 0.5em;
 }
+.field-set select:focus {
+  outline: 3px solid #a9a9f1;
+  cursor: pointer;
+  transition: 0.4ms;
+}
 select {
   border: none;
   outline: none;
@@ -100,6 +105,9 @@ select {
 select option {
   font-weight: 500;
   color: #818181;
+}
+option:hover {
+  cursor: pointer;
 }
 .radio-wrapper,
 .checkbox-wrapper label {
@@ -119,8 +127,30 @@ input {
   margin-right: 0.5em;
   border: none;
 }
+
 textarea {
   border: none;
   outline: none;
   border-radius: 4px;
+  margin: unset !important;
+  padding: 10px 0 0 0;
+  min-height: 124px;
+}
+textarea:focus {
+  outline: 3px solid #a9a9f1;
+  transition: 0.4ms;
+}
+
+#submit {
+  background-color: #6868cc;
+  padding: 0.8em 0;
+  border-radius: 4px;
+  text-transform: capitalize;
+  font-size: 1.1rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+  color: #eee;
+}
+#submit:hover {
+  cursor: pointer;
 }
