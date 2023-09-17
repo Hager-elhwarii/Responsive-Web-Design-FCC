@@ -1,23 +1,115 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 :root {
-    font-size: 16px;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
 }
-#main-doc{
-    display: flex;
+body {
+  scroll-behavior: smooth;
+  transition: all 0.4s;
 }
-.aside-navbar{
-    border: 2px solid red;
-    display: flex;
-    flex-direction: column;
-    width: 25%;
-    padding-left: 1rem;
+#main-doc {
+  display: flex;
 }
-.topics-section{
-    border: 2px solid yellow;
-    width: 100%;
-    padding-left: 3rem;
+.aside-navbar {
+  position: sticky;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  width: 25.2%;
+  border-right: 3px solid rgb(156, 156, 156);
+  height: 100vh;
+}
+.topics-section {
+  width: 100%;
+  padding: 1rem 2rem;
+}
+.nav-link {
+  border-top: 1px solid #000;
+}
+.doc-title {
+  text-align: center;
+  font-weight: 400;
+  padding: 1.1rem 0;
+  color: #272727;
+  font-size: 1.8rem;
+}
+.nav-link {
+  text-decoration: none;
+  color: #575757;
+  padding: 0.8rem 0;
+  padding-left: 1.9rem;
+}
+.main-section {
+  color: #575757;
+  font-size: 15.5px;
+  width: 100%;
+}
+.main-section > header {
+  padding: 1rem 0;
+  font-weight: 400;
+  color: #1b1b1b;
+  font-size: 1.8rem;
+}
+.main-section > p {
+  padding: 0.4rem 0 0.4rem 1.2rem;
+  line-height: 1.5;
+}
+.main-section > ul {
+  padding-left: 5rem;
+}
+.main-section ul li {
+  padding-top: 1rem;
+  padding-bottom: 0.5rem;
+}
+.main-section code {
+  background-color: #f5f4f4;
+  display: block;
+  margin: 0.5rem 0;
+  margin-left: 1.8rem;
+  padding: 1rem 0 1rem 1rem;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  line-height: 2;
+  word-break: normal;
+  word-wrap: normal;
+}
+.nested-data-types{
+    padding-left: 3.8rem;
+}
+@media (max-width: 1200px){
+    .doc-title {
+        font-size: 1.6rem;
+    }
+    .nav-link {
+        font-size: 0.8rem;
+    }
+    .main-section > header {
+        font-size: 1.6rem;
+    }
+}
+@media (max-width: 1100px){
+    .doc-title {
+        font-size: 1.2rem;
+    }
+    .main-section > header {
+        font-size: 1.4rem;
+    }
+}
+@media (max-width: 805px){
+    .doc-title {
+        font-size: 0.9rem;
+    }
+    .nav-link {
+        font-size: 0.6rem;
+    }
+    .main-section > header {
+        font-size: 1rem;
+    }
+    .main-section {
+        font-size: 12px;
+    }
 }
