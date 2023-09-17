@@ -1,4 +1,4 @@
-![image](https://github.com/Hager-elhwarii/Responsive-Web-Design-FreeCodeCamp/assets/80959882/6ca29e8b-2a17-4645-888b-319f87d4d846)# Technical Documentation :bulb: 
+# Technical Documentation :bulb: 
 
 - This is one of the required projects to earn your certification.
 
