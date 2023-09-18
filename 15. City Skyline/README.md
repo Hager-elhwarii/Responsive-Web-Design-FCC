@@ -1,6 +1,8 @@
 # City Skyline :bulb: 
 
-- CSS variables help you organize your styles and reuse them.
+- CSS variables help you organize your styles and reuse 
+
+- Use media queries so you can resize your window to see the background change to moon light, otherwise it 'll be in sun light.
 
 - In this course, you'll build a city skyline. You'll learn how to configure CSS variables so you can reuse them whenever you want.
 
