@@ -1,3 +1,4 @@
+
 /* ======================= 
      General Styling
    =======================*/
@@ -197,6 +198,7 @@ iframe {
 /* ========================
      Footer  Styling
    ========================*/
+
 footer {
     text-align: right;
     width: 100%;
@@ -224,6 +226,7 @@ footer ul + p {
 /* ========================
      Responsive Styling
    ========================*/
+
 
 @media (max-width: 1000px) {
   #nav-bar > ul > li > a {
