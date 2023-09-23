@@ -28,6 +28,9 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 2rem 5rem;
+    position: sticky;
+    top: 0;
+    background-color: #f1f1f1;
 }
 #nav-bar > ul {
     width: 35vw;
@@ -80,9 +83,9 @@ input[type='submit'] {
     font-size: 1.8rem;
     font-weight: 600;
     color: #303030;
-    padding: 0.8rem 2.8rem;
+    padding: 0.6rem 2.8rem;
     width: 100%;
-    max-width: 160px;
+    max-width: 150px;
     text-align: center;
     text-transform: capitalize;
     background-color: #f1c40f;
@@ -94,10 +97,54 @@ input[type='submit']:hover {
     background-color: orange;
     cursor: pointer;
 }
+.features {
+    margin: 5rem 0;
+    padding: 2rem;
+    width: 100%;
+    display: grid;
+    justify-content: center;
+}
+.flex-wrapper {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    max-width: 885px;
+    gap: 6rem;
+}
+.icons {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 5rem;
+    color: orange;
+}
+.icons + div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 5rem;
+    height: 100%;
+}
+.icons + div h2 {
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+.icons + div p {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #525252;
+}
 
-
-
-
+iframe {
+    margin: 0 auto;
+    display: block;
+    padding: 1.5rem 1rem;
+    width: 100%;
+    max-width: 600px;
+}
 
 
 
