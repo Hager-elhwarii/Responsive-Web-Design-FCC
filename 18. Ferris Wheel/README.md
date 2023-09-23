@@ -6,3 +6,5 @@
 
 
 ## :camera_flash: Demo GIF
+
+![Ferris_wheel](https://github.com/Hager-elhwarii/Responsive-Web-Design-FreeCodeCamp/assets/80959882/cc2cf7d5-447d-4e66-ad16-a716a3a6e8d9)
