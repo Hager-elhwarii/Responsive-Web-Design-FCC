@@ -1,3 +1,7 @@
+/* ======================= 
+     General Styling
+   =======================*/
+
 * {
     padding: 0;
     margin: 0;
@@ -5,4 +9,174 @@
 }
 :root {
     font-size: 62.5%;
+}
+body {
+    background-color: #f1f1f1;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* ======================= 
+     Navbar Styling
+   =======================*/
+
+#header-img {
+    width: max(60px,18vw);
+    display: block;
+}
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 5rem;
+}
+#nav-bar > ul {
+    width: 35vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+#nav-bar > ul > li > a {
+    text-decoration: none;
+    color: #000;
+    font-size: min(5vw, 1.7em);
+    text-transform: capitalize;
+}
+
+/* ======================= 
+     Form  Styling
+   =======================*/
+
+form {
+ padding: 1rem 2rem;
+}
+fieldset {
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+input , legend {
+    display: block;
+    margin-top: 1.5rem;
+}
+legend {
+    font-size: 2.5rem;
+    text-transform: capitalize;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 0.5rem;  
+}
+input[type='email'] {
+    width: 100%;
+    max-width: 300px;
+    padding: 0.6rem 0;
+}
+input[type='email']:focus {
+    outline-color: #f1c40f;
+}
+input[type='submit'] {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #303030;
+    padding: 0.8rem 2.8rem;
+    width: 100%;
+    max-width: 160px;
+    text-align: center;
+    text-transform: capitalize;
+    background-color: #f1c40f;
+    border: none;
+    border-radius: 2px;
+    transition: all 0.4s ease;
+}
+input[type='submit']:hover {
+    background-color: orange;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ========================
+     Responsive Styling
+   ========================*/
+
+@media (max-width: 1000px){
+    #nav-bar > ul > li > a {
+        font-size: 1.6rem;
+    }
+    legend {
+        font-size: 2.3rem;
+    }
+    input[type='submit'] {
+        font-size: 1.6rem;
+    }
+    
+} 
+@media (max-width: 700px){
+    #nav-bar > ul > li > a {
+        font-size: 1.4rem;
+    }
+    legend {
+        font-size: 2rem;
+    }
+    input[type='submit'] {
+        font-size: 1.5rem;
+    }
+    
+}
+@media (max-width: 650px){
+    #nav-bar > ul > li > a {
+        font-size: 1.2rem;
+    }
+    legend {
+        font-size: 1.8rem;
+    }
+    input[type='submit'] {
+        font-size: 1.3rem;
+        padding: 0.8rem 2.2rem;
+    }
+}
+@media (max-width: 500px){
+    #nav-bar > ul > li > a {
+        font-size: 1rem;
+    }
+    legend {
+        font-size: 1.6rem;
+    }
+    input[type='submit'] {
+        font-size: 1.2rem;
+    }
+}
+@media (max-width: 410px){
+    #nav-bar > ul > li > a {
+        font-size: 0.7rem;
+    }
+    #nav-bar > ul {
+        gap: 1rem;
+    }
+    legend {
+        font-size: 1.5rem;
+    }
+    input[type='email'] {
+        width: 70%;
+    }
+    input[type='submit'] {
+        width: 40%;
+    }
+    #header {
+        padding: 2rem 2.5rem;
+    }
 }

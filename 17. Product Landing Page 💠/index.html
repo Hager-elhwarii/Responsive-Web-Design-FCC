@@ -1,12 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
     <title>Product Landing Page</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <header id="header">
+      <img
+        id="header-img"
+        src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png"
+        alt="music instrument as a logo"
+      />
+      <nav id="nav-bar">
+        <ul>
+          <li><a href='#' class="nav-link">features</a></li>
+          <li><a href='#' class="nav-link">how it works</a></li>
+          <li><a href='#' class="nav-link">pricing</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <form
+      id="form"
+      method="post"
+      action="https://www.freecodecamp.com/email-submit"
+    >
+      <fieldset>
+        <legend>handcrafted, home-made masterpieces</legend>
+        <input
+          id="email"
+          type="email"
+          placeholder=" Enter your email address"
+          pattern="/^\S+@\S+\.\S+$/"
+          required
+        />
+        <input id="submit" type="submit" value="Get Started" />
+      </fieldset>
+    </form>
+
+    <!-- <main>
+      <div class="features">
+        <div>
+          <i class="fa-solid fa-fire-flame-curved"></i>
+          <h2>Premium Materials</h2>
+          <p>
+            Our trombones use the shiniest brass which is sourced locally. This
+            will increase the longevity of your purchase.
+          </p>
+        </div>
+        <div>
+          <i class="fa-solid fa-truck"></i>
+          <h2>Fast Shipping</h2>
+          <p>
+            We make sure you recieve your trombone as soon as we have finished
+            making it. We also provide free returns if you are not satisfied.
+          </p>
+        </div>
+        <div>
+          <i class="fa-solid fa-battery-full"></i>
+          <h2>Quality Assurance</h2>
+          <p>
+            For every purchase you make, we will ensure there are no damages or
+            faults and we will check and test the pitch of your instrument.
+          </p>
+        </div>
+      </div>
+
+      <div class="how-it-works">
+        <iframe
+          id="video" id="video"
+          width="600"
+          height="350"
+          src="https://www.youtube.com/embed/y8Yv4pnO7qc"
+          title="Roman Carnival Overture Op. 9 for Five Trombones"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+      </div>
+
+      <div class="pricing">
+        <div>
+          <h2>tenor trombone</h2>
+          <p>$600</p>
+          <p>lorem ipsum.</p>
+          <p>lorem ipsum.</p>
+          <p>lorem ipsum dolor.</p>
+          <p>lorem ipsum.</p>
+          <button>select</button>
+        </div>
+        <div>
+          <h2>bass trombone</h2>
+          <p>$900</p>
+          <p>lorem ipsum.</p>
+          <p>lorem ipsum.</p>
+          <p>lorem ipsum dolor.</p>
+          <p>lorem ipsum.</p>
+          <button>select</button>
+        </div>
+        <div>
+          <h2>valve trombone</h2>
+          <p>$1200</p>
+          <p>plays similar to a trumpet.</p>
+          <p>great for JaZZ bands.</p>
+          <p>lorem ipsum dolor.</p>
+          <p>lorem ipsum.</p>
+          <button>select</button>
+        </div>
+      </div>
+    </main> -->
+
+    <!-- <footer>
+      <ul>
+        <li class="footer-link">privacy</li>
+        <li class="footer-link">terms</li>
+        <li class="footer-link">contact</li>
+      </ul>
+      <p>copyright 2016, original trombones</p>
+    </footer> -->
+  </body>
 </html>
