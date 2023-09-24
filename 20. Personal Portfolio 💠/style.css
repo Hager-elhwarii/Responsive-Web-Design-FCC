@@ -16,6 +16,7 @@
   --primary-white: #f0f0f0;
   --primary-black: #000;
   --primary-blue: #45567d;
+  --primary-gray: #303841;
 }
 body {
     font-family: "Poppins", sans-serif;
@@ -58,46 +59,6 @@ li:hover {
   color: var(--primary-white);
 }
 
-@media (max-width: 1000px) {
-  #navbar ul a {
-    font-size: 1.8rem;
-  }
-  #navbar ul {
-    padding-right: 2.5rem;
-  }
-}
-@media (max-width: 700px) {
-  #navbar ul a {
-    font-size: 1.6rem;
-  }
-  #navbar ul {
-    padding-right: 2rem;
-  }
-}
-@media (max-width: 600px) {
-  #navbar ul a {
-    font-size: 1.4rem;
-  }
-  #navbar ul {
-    padding-right: 1.5rem;
-  }
-}
-@media (max-width: 500px) {
-  #navbar ul a {
-    font-size: 1.2rem;
-  }
-  #navbar ul {
-    padding-right: 1rem;
-  }
-}
-@media (max-width: 400px) {
-  #navbar ul a {
-    font-size: 1rem;
-  }
-  #navbar ul {
-    padding-right: 0.5rem;
-  }
-}
 
 /* =============================
       WELCOME SECTION STYLING
@@ -128,3 +89,188 @@ li:hover {
     font-style: italic;
     color: var(--primary-red);
 }
+
+/* =============================
+      PROJECTS SECTION STYLING
+   =============================*/
+#projects {
+    background-color: var(--primary-blue);
+    padding: 4rem 0 0.6rem 0;
+}
+
+#projects h2 {
+    text-align: center;
+    font-size: 4rem;
+    color: var(--primary-white);
+    border-bottom: 2px solid var(--primary-white);
+    width: 100%;
+    max-width: 640px;
+    margin: 4rem auto 2rem auto;
+}
+figure {
+    height: 100%;
+    border-bottom: 4px solid var(--primary-gray);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#projects img {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+figcaption {
+    text-align: center;
+    font-size: 2rem;
+    text-transform: capitalize;
+    color: var(--primary-white);
+    background-color: var(--primary-gray);
+    padding: 1.8rem 0;
+    border-radius: 0 0 0.5rem 0.5rem;
+    transition: all 0.3s ease-in-out;
+}
+figcaption:hover{
+    color: var(--primary-red);
+}
+figure a , #projects button a {
+    text-decoration: none;
+    list-style: none;
+    color: var(--primary-white);
+}
+.projects-images {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-auto-rows: 400px;
+    grid-column-gap: 4rem;
+    grid-row-gap: 10.5rem;
+    padding: 3rem 12.5rem;
+}
+#projects button {
+    margin: 8rem auto;
+    display: block;
+    padding: 1rem 3.2rem;
+    padding-right: 3rem;
+    font-size: 2rem;
+    border-radius: 0.4rem;
+    border: none;
+    color: var(--primary-white);
+    background-color: var(--primary-gray);
+    transition: all 0.3s ease-in-out;
+    font-family: "Poppins", sans-serif;
+}
+
+#projects button::after {
+    content: '>';
+    padding-left: 1.2rem;
+}
+#projects button:hover {
+    cursor: pointer;
+    background-color: var(--primary-red);
+}
+
+ /* ==========================
+        RESPONSIVE STYLING
+    ==========================*/
+@media (max-width:1300px){
+        .projects-images {
+            grid-template-columns: repeat(2,1fr);
+        }
+        #projects h2 {
+            font-size: 3.5rem;
+            max-width: 600px;
+        }
+}
+@media (max-width: 1000px) {
+    #navbar ul a {
+      font-size: 1.8rem;
+    }
+    #navbar ul {
+      padding-right: 2.5rem;
+    }
+    #welcome-section h1 {
+        font-size: 5rem;
+      }
+      #welcome-section p {
+        font-size: 2.5rem;
+      }
+      .projects-images {
+        grid-template-columns: repeat(1,1fr);
+    }
+    #projects h2 {
+        font-size: 3rem;
+        max-width: 500px;
+    }
+  }
+  @media (max-width: 700px) {
+    #navbar ul a {
+      font-size: 1.6rem;
+    }
+    #navbar ul {
+      padding-right: 2rem;
+    }
+    #welcome-section h1 {
+        font-size: 4rem;
+      }
+      #welcome-section p {
+        font-size: 2.2rem;
+      }
+      #projects h2 {
+        font-size: 2.5rem;
+        max-width: 400px;
+    }
+    .projects-images {
+        width: 100%;
+    }
+  }
+  @media (max-width: 600px) {
+    #navbar ul a {
+      font-size: 1.4rem;
+    }
+    #navbar ul {
+      padding-right: 1.5rem;
+    }
+    #welcome-section h1 {
+        font-size: 4rem;
+      }
+      #welcome-section p {
+        font-size: 2rem;
+      }
+      #projects h2 {
+        font-size: 2rem;
+        max-width: 300px;
+    }
+  }
+  @media (max-width: 500px) {
+    #navbar ul a {
+      font-size: 1.2rem;
+    }
+    #navbar ul {
+      padding-right: 1rem;
+    }
+    #welcome-section h1 {
+        font-size: 3rem;
+      }
+      #welcome-section p {
+        font-size: 1.7rem;
+      }
+      #projects h2 {
+        font-size: 1.5rem;
+        max-width: 200px;
+    }
+  }
+  @media (max-width: 400px) {
+    #navbar ul a {
+      font-size: 1rem;
+    }
+    #navbar ul {
+      padding-right: 0.5rem;
+    }
+    #welcome-section h1 {
+        font-size: 2.5rem;
+      }
+      #welcome-section p {
+        font-size: 1.5rem;
+      }
+      #projects h2 {
+        font-size: 1.3rem;
+    }
+  }
+ 
