@@ -1,7 +1,7 @@
 # Responsive Web Design FreeCodeCamp 💡
 <a name="readme-top"></a>
-- `HTML` is the foundation of all web pages. It defines the structure of a page, while `CSS` defines its style. HTML and CSS are the beginning of everything
-    you need to know to make your first web page! Learn both and start creating amazing websites.
+- `HTML` is the foundation of all web pages. It defines the structure of a page, while `CSS` defines its style.
+-  HTML and CSS are the beginning of everything you need to know to make your first web page. Learn both and start creating amazing websites.
   
 ## 📸  Screenshoot
 ![image](https://github.com/Hager-elhwarii/Responsive-Web-Design-FreeCodeCamp/assets/80959882/5a12a946-a2dc-4b31-a82a-94b868af7d2c)
