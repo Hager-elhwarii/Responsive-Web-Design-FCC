@@ -1,8 +1,7 @@
 # Responsive Web Design FreeCodeCamp 💡
 <a name="readme-top"></a>
 - `HTML` is the foundation of all web pages. It defines the structure of a page, while `CSS` defines its style. HTML and CSS are the beginning of everything
-  
- you need to know to make your first web page! Learn both and start creating amazing websites.
+    you need to know to make your first web page! Learn both and start creating amazing websites.
   
 ## 📸  Screenshoot
 ![image](https://github.com/Hager-elhwarii/Responsive-Web-Design-FreeCodeCamp/assets/80959882/5a12a946-a2dc-4b31-a82a-94b868af7d2c)
@@ -12,12 +11,12 @@
 
 - First, you'll build a cat photo app to learn the basics of HTML and CSS. Later, you'll learn modern techniques like `CSS variables` by building a penguin, and best practices for accessibility by building a quiz site.
 
-- Finally, you'll learn how to make webpages that respond to different screen sizes by building a photo gallery with `Flexbox, and a magazine article layout with CSS Grid.
+- Finally, you'll learn how to make webpages that respond to different screen sizes by building a photo gallery with `Flexbox`, and a magazine article layout with `CSS Grid`.
 
 - In this `Responsive-Web-Design-FreeCodeCamp` repository, I Learned the basics of HTML and CCSS by doing **20  Project.** 
 
 ## 🤸 Take-Away Skills:
->  By the end of this course, You will have built and deployed several neat-looking projects that you can show to potential employers. 
+>  By the end of this course, You will have built and deployed several neat-looking projects, that will boast your coding skills and you can show it to potential employers. 
 
 ## 🚀 Deployment Links 
   - [Photo Gallery](https://cat-photo-gallery-dottie.netlify.app/)
