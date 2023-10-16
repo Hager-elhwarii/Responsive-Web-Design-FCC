@@ -41,7 +41,7 @@
 ##  🏅🤘 My Certification 
 ![image](https://github.com/Hager-elhwarii/Responsive-Web-Design-FreeCodeCamp/assets/80959882/7efdfefb-5fdc-4370-b5c0-97ad8fc7dc66)
 
-## 💻 Tech stack
+## 💻 Tech Stack
 - Html
 - CSS
 
