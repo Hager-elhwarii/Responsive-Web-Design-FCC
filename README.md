@@ -1,22 +1,25 @@
 # Responsive Web Design FreeCodeCamp 💡
 <a name="readme-top"></a>
 - `HTML` is the foundation of all web pages. It defines the structure of a page, while `CSS` defines its style.
--  HTML and CSS are the beginning of everything you need to know to make your first web page. Learn both and start creating amazing websites.
+-  Css and Html are The beginning of everything you need to know to make your first web page. Learn both and start creating amazing websites.
   
 ## 📸  Screenshoot
 ![image](https://github.com/Hager-elhwarii/Responsive-Web-Design-FreeCodeCamp/assets/80959882/5a12a946-a2dc-4b31-a82a-94b868af7d2c)
 
 ## 🌸 About this Repo
-- In this `Responsive Web Design Certification`, you'll learn the languages that developers use to build webpages: `HTML (Hypertext Markup Language)` for content, and `CSS (Cascading Style Sheets)` for design.
 
+- I created this repository as a resource to help you better understand Html and CSS, and was organized in a way I thought made the most sense, when i was learning it, with a number of **20  Project.**
+   
+- In this `Responsive Web Design Certification`, you'll learn the languages that developers use to build webpages: `HTML (Hypertext Markup Language)` for content, and `CSS (Cascading Style Sheets)` for design.
+  
 - First, you'll build a cat photo app to learn the basics of HTML and CSS. Later, you'll learn modern techniques like `CSS variables` by building a penguin, and best practices for accessibility by building a quiz site.
 
 - Finally, you'll learn how to make webpages that respond to different screen sizes by building a photo gallery with `Flexbox`, and a magazine article layout with `CSS Grid`.
 
-- In this `Responsive-Web-Design-FreeCodeCamp` repository, I Learned the basics of HTML and CCSS by doing **20  Project.** 
 
 ## 🤸 Take-Away Skills:
->  By the end of this course, You will have built and deployed several neat-looking projects, that will boast your coding skills and you can show it to potential employers. 
+>  By the end of this course, You will have built and deployed several neat-looking projects, that will boast your coding skills and you can show it to potential employers.
+
 
 ## 🚀 Deployment Links 
   - [Photo Gallery](https://cat-photo-gallery-dottie.netlify.app/)
