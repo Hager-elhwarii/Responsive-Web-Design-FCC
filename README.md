@@ -1,6 +1,6 @@
 # Responsive Web Design FreeCodeCamp 💡
 <a name="readme-top"></a>
-- **HTML** is the foundation of all web pages. It defines the structure of a page, while **CSS**` defines its style.
+- `**HTML**` is the foundation of all web pages. It defines the structure of a page, while `**CSS**` defines its style.
 -  Both are The beginning of everything you need to know to make your first web page. Learn both and start creating amazing websites.
   
 ## 📸  Screenshoot
@@ -34,7 +34,7 @@
     
   - [City Skyline](https://city-skyline-dottie.netlify.app/)
     
-  - [Penguin](https://cute-penguin-dottie.netlify.app/)
+  - [CSS Penguin](https://cute-penguin-dottie.netlify.app/)
   
   - [Personal Portfolio](https://personal-portfolio-dottie.netlify.app/)
 
@@ -44,7 +44,6 @@
 ## 💻 Tech stack
 - Html
 - CSS
-- jQuery
 
 ##  🔐 Run locally 
 
