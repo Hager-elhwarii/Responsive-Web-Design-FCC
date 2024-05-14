@@ -39,7 +39,7 @@
   - [Personal Portfolio](https://personal-portfolio-dottie.netlify.app/)
 
 ##  🏅🤘 My Certification 
-![image](https://github.com/Hager-elhwarii/Responsive-Web-Design-FreeCodeCamp/assets/80959882/7efdfefb-5fdc-4370-b5c0-97ad8fc7dc66)
+![RWD-Certificate](https://github.com/Hager-elhwarii/Responsive-Web-Design-FreeCodeCamp/assets/80959882/5973de8e-0e69-41df-9022-e6fd7d415644)
 
 ## 💻 Tech Stack
 - Html
